@@ -1,0 +1,178 @@
+export const ko = {
+  id: 'ko', name: 'Korea', native: '한국어', code: 'KR', accent: '#7C3AED', accentSoft: '#EDE9FE',
+  units: [
+    { id: 'u1', title: 'Sapaan', emoji: '👋', lessons: [
+      { id: 'ko-u1-l1', title: 'Halo & Perkenalan', items: [
+        { t: '안녕하세요', r: 'Annyeonghaseyo', m: 'Halo (sopan)', e: '👋' },
+        { t: '안녕', r: 'Annyeong', m: 'Hai (santai)', e: '😊' },
+        { t: '좋은 아침', r: 'Joeun achim', m: 'Selamat pagi', e: '🌅' },
+        { t: '안녕히 주무세요', r: 'Annyeonghi jumuseyo', m: 'Selamat malam (ucap tidur)', e: '🌙' },
+        { t: '감사합니다', r: 'Gamsahamnida', m: 'Terima kasih', e: '🙏' },
+        { t: '죄송합니다', r: 'Joesonghamnida', m: 'Maaf', e: '😔' },
+        { t: '처음 뵙겠습니다', r: 'Cheoeum boepgetseumnida', m: 'Senang bertemu (pertama)', e: '🤝' },
+        { t: '제 이름은…', r: 'Je ireumeun...', m: 'Nama saya...', e: '🏷️' },
+        { t: '어떻게 지내세요?', r: 'Eotteoke jinaeseyo?', m: 'Apa kabar?', e: '💬' },
+        { t: '잘 지내요', r: 'Jal jinaeyo', m: 'Saya baik-baik', e: '🙂' },
+        { t: '만나서 반갑습니다', r: 'Mannaseo bangapseumnida', m: 'Senang bertemu denganmu', e: '😊' },
+        { t: '다음에 봐요', r: 'Daeume bwayo', m: 'Sampai jumpa', e: '👋' },
+      ], phrases: [{ t: '안녕하세요, 저는 Ana입니다.', m: 'Halo, saya Ana.' }] }
+    ]},
+    { id: 'u2', title: 'Angka', emoji: '🔢', lessons: [
+      { id: 'ko-u2-l1', title: 'Angka 1-10', items: [
+        { t: '일', r: 'Il', m: 'Satu', e: '1️⃣' },
+        { t: '이', r: 'I', m: 'Dua', e: '2️⃣' },
+        { t: '삼', r: 'Sam', m: 'Tiga', e: '3️⃣' },
+        { t: '사', r: 'Sa', m: 'Empat', e: '4️⃣' },
+        { t: '오', r: 'O', m: 'Lima', e: '5️⃣' },
+        { t: '육', r: 'Yuk', m: 'Enam', e: '6️⃣' },
+        { t: '칠', r: 'Chil', m: 'Tujuh', e: '7️⃣' },
+        { t: '팔', r: 'Pal', m: 'Delapan', e: '8️⃣' },
+        { t: '구', r: 'Gu', m: 'Sembilan', e: '9️⃣' },
+        { t: '십', r: 'Sip', m: 'Sepuluh', e: '🔟' },
+      ], phrases: [] }
+    ]},
+    { id: 'u3', title: 'Makanan', emoji: '🍽️', lessons: [
+      { id: 'ko-u3-l1', title: 'Makanan & Minuman', items: [
+        { t: '물', r: 'Mul', m: 'Air', e: '💧' },
+        { t: '밥', r: 'Bap', m: 'Nasi', e: '🍚' },
+        { t: '빵', r: 'Ppang', m: 'Roti', e: '🍞' },
+        { t: '닭고기', r: 'Dakgogi', m: 'Ayam', e: '🍗' },
+        { t: '생선', r: 'Saengseon', m: 'Ikan', e: '🐟' },
+        { t: '사과', r: 'Sagwa', m: 'Apel', e: '🍎' },
+        { t: '커피', r: 'Keopi', m: 'Kopi', e: '☕' },
+        { t: '차', r: 'Cha', m: 'Teh', e: '🍵' },
+        { t: '배고파요', r: 'Baegopayo', m: 'Saya lapar', e: '😋' },
+        { t: '목말라요', r: 'Mongmallayo', m: 'Saya haus', e: '🥤' },
+        { t: '맛있어요', r: 'Masisseoyo', m: 'Enak', e: '🤤' },
+        { t: '계산서 주세요', r: 'Gyesanseo juseyo', m: 'Tolong bonnya', e: '🧾' },
+      ], phrases: [{ t: '커피 한 잔 주세요.', m: 'Kopi satu, tolong.' }] }
+    ]},
+    { id: 'u4', title: 'Perjalanan', emoji: '✈️', lessons: [
+      { id: 'ko-u4-l1', title: 'Di Bandara & Hotel', items: [
+        { t: '공항', r: 'Gonghang', m: 'Bandara', e: '✈️' },
+        { t: '표', r: 'Pyo', m: 'Tiket', e: '🎫' },
+        { t: '여권', r: 'Yeogwon', m: 'Paspor', e: '📘' },
+        { t: '호텔', r: 'Hotell', m: 'Hotel', e: '🏨' },
+        { t: '방', r: 'Bang', m: 'Kamar', e: '🛏️' },
+        { t: '어디예요?', r: 'Eodiyeyo?', m: 'Di mana?', e: '📍' },
+        { t: '왼쪽', r: 'Oenjjok', m: 'Kiri', e: '⬅️' },
+        { t: '오른쪽', r: 'Oreunjjok', m: 'Kanan', e: '➡️' },
+        { t: '직진', r: 'Jikjin', m: 'Lurus', e: '⬆️' },
+        { t: '얼마예요?', r: 'Eolmayeyo?', m: 'Berapa harganya?', e: '💰' },
+        { t: '택시', r: 'Taeksi', m: 'Taksi', e: '🚕' },
+        { t: '도와주세요', r: 'Dowajuseyo', m: 'Tolong', e: '🆘' },
+      ], phrases: [] }
+    ]},
+    { id: 'u5', title: 'Percakapan', emoji: '💬', lessons: [
+      { id: 'ko-u5-l1', title: 'Sehari-hari', items: [
+        { t: '네', r: 'Ne', m: 'Ya', e: '✅' },
+        { t: '아니요', r: 'Aniyo', m: 'Tidak', e: '❌' },
+        { t: '미안합니다', r: 'Mianhamnida', m: 'Maaf', e: '😔' },
+        { t: '모르겠어요', r: 'Moreugesseoyo', m: 'Saya tidak mengerti', e: '😕' },
+        { t: '천천히 말해 주세요', r: 'Cheoncheonhi malhae juseyo', m: 'Tolong bicara pelan-pelan', e: '🐌' },
+        { t: '지금 몇 시예요?', r: 'Jigeum myeot siyeyo?', m: 'Jam berapa sekarang?', e: '⏰' },
+        { t: '오늘', r: 'Oneul', m: 'Hari ini', e: '📅' },
+        { t: '내일', r: 'Naeil', m: 'Besok', e: '📆' },
+        { t: '어제', r: 'Eoje', m: 'Kemarin', e: '🗓️' },
+        { t: '안녕히 가세요', r: 'Annyeonghi gaseyo', m: 'Selamat tinggal', e: '👋' },
+        { t: '화이팅', r: 'Hwaiting', m: 'Semangat / Semoga berhasil', e: '🍀' },
+        { t: '괜찮아요', r: 'Gwaenchanaeyo', m: 'Tidak apa-apa', e: '👍' },
+      ], phrases: [] }
+    ]},
+    { id: 'u6', title: 'Waktu & Hari', emoji: '🕐', lessons: [
+      { id: 'ko-u6-l1', title: 'Waktu & Hari', items: [
+          { t: '오늘', r: 'Oneul', m: 'Hari ini', e: '📅' },
+          { t: '내일', r: 'Naeil', m: 'Besok', e: '📆' },
+          { t: '어제', r: 'Eoje', m: 'Kemarin', e: '🗓️' },
+          { t: '지금', r: 'Jigeum', m: 'Sekarang', e: '⏰' },
+          { t: '아침', r: 'Achim', m: 'Pagi', e: '🌅' },
+          { t: '낮', r: 'Nat', m: 'Siang', e: '☀️' },
+          { t: '저녁', r: 'Jeonyeok', m: 'Sore', e: '🌇' },
+          { t: '밤', r: 'Bam', m: 'Malam', e: '🌙' },
+          { t: '월요일', r: 'Woryoil', m: 'Senin', e: '1️⃣' },
+          { t: '화요일', r: 'Hwayoil', m: 'Selasa', e: '2️⃣' },
+          { t: '수요일', r: 'Suyoil', m: 'Rabu', e: '3️⃣' },
+          { t: '목요일', r: 'Mogyoil', m: 'Kamis', e: '4️⃣' },
+          { t: '금요일', r: 'Geumyoil', m: 'Jumat', e: '5️⃣' },
+          { t: '토요일', r: 'Toyoil', m: 'Sabtu', e: '6️⃣' },
+          { t: '일요일', r: 'Ilyoil', m: 'Minggu', e: '7️⃣' },
+      ], phrases: [] }
+    ]},
+    { id: 'u7', title: 'Keluarga & Hewan', emoji: '🐾', lessons: [
+      { id: 'ko-u7-l1', title: 'Keluarga & Hewan', items: [
+          { t: '아버지', r: 'Abeoji', m: 'Ayah', e: '👨' },
+          { t: '어머니', r: 'Eomeoni', m: 'Ibu', e: '👩' },
+          { t: '형/누나', r: 'Hyeong/Nuna', m: 'Kakak', e: '👦' },
+          { t: '동생', r: 'Dongsaeng', m: 'Adik', e: '👧' },
+          { t: '할아버지', r: 'Harabeoji', m: 'Kakek', e: '👴' },
+          { t: '할머니', r: 'Halmeoni', m: 'Nenek', e: '👵' },
+          { t: '개', r: 'Gae', m: 'Anjing', e: '🐶' },
+          { t: '고양이', r: 'Goyangi', m: 'Kucing', e: '🐱' },
+          { t: '새', r: 'Sae', m: 'Burung', e: '🐦' },
+          { t: '물고기', r: 'Mulgogi', m: 'Ikan', e: '🐟' },
+          { t: '코끼리', r: 'Kokkiri', m: 'Gajah', e: '🐘' },
+          { t: '호랑이', r: 'Horangi', m: 'Harimau', e: '🐯' },
+          { t: '토끼', r: 'Tokki', m: 'Kelinci', e: '🐰' },
+          { t: '소', r: 'So', m: 'Sapi', e: '🐮' },
+          { t: '말', r: 'Mal', m: 'Kuda', e: '🐴' },
+      ], phrases: [] }
+    ]},
+    { id: 'u8', title: 'Warna & Bentuk', emoji: '🎨', lessons: [
+      { id: 'ko-u8-l1', title: 'Warna & Bentuk', items: [
+          { t: '빨간색', r: 'Ppalgansaek', m: 'Merah', e: '🔴' },
+          { t: '파란색', r: 'Paransaek', m: 'Biru', e: '🔵' },
+          { t: '초록색', r: 'Choroksaek', m: 'Hijau', e: '🟢' },
+          { t: '노란색', r: 'Noransaek', m: 'Kuning', e: '🟡' },
+          { t: '검은색', r: 'Geom-eunsaek', m: 'Hitam', e: '⚫' },
+          { t: '흰색', r: 'Huin-saek', m: 'Putih', e: '⚪' },
+          { t: '회색', r: 'Hoesaek', m: 'Abu-abu', e: '🩶' },
+          { t: '주황색', r: 'Ju-hwangsaek', m: 'Oranye', e: '🟠' },
+          { t: '보라색', r: 'Borasaek', m: 'Ungu', e: '🟣' },
+          { t: '분홍색', r: 'Bunhongsaek', m: 'Pink', e: '💗' },
+          { t: '원', r: 'Won', m: 'Lingkaran', e: '⭕' },
+          { t: '사각형', r: 'Sagakhyeong', m: 'Kotak', e: '⬛' },
+          { t: '삼각형', r: 'Samgakhyeong', m: 'Segitiga', e: '🔺' },
+          { t: '별', r: 'Byeol', m: 'Bintang', e: '⭐' },
+          { t: '하트', r: 'Hateu', m: 'Hati', e: '❤️' },
+      ], phrases: [] }
+    ]},
+    { id: 'u9', title: 'Pekerjaan & Sekolah', emoji: '📚', lessons: [
+      { id: 'ko-u9-l1', title: 'Pekerjaan & Sekolah', items: [
+          { t: '선생님', r: 'Seonsaengnim', m: 'Guru', e: '👩‍🏫' },
+          { t: '의사', r: 'Uisa', m: 'Dokter', e: '👨‍⚕️' },
+          { t: '경찰', r: 'Gyeongchal', m: 'Polisi', e: '👮' },
+          { t: '학생', r: 'Haksaeng', m: 'Siswa', e: '🎒' },
+          { t: '책', r: 'Chaek', m: 'Buku', e: '📖' },
+          { t: '펜', r: 'Pen', m: 'Pena', e: '🖊️' },
+          { t: '연필', r: 'Yeonpil', m: 'Pensil', e: '✏️' },
+          { t: '교실', r: 'Gyosil', m: 'Kelas', e: '🏫' },
+          { t: '학교', r: 'Hakgyo', m: 'Sekolah', e: '🏫' },
+          { t: '공부', r: 'Gongbu', m: 'Belajar', e: '📝' },
+          { t: '쓰다', r: 'Sseuda', m: 'Menulis', e: '✍️' },
+          { t: '읽다', r: 'Ikda', m: 'Membaca', e: '👓' },
+          { t: '시험', r: 'Siheom', m: 'Ujian', e: '📋' },
+          { t: '숙제', r: 'Sukje', m: 'Tugas', e: '📄' },
+          { t: '도서관', r: 'Doseogwan', m: 'Perpustakaan', e: '📚' },
+      ], phrases: [] }
+    ]},
+    { id: 'u10', title: 'Cuaca & Alam', emoji: '🌤️', lessons: [
+      { id: 'ko-u10-l1', title: 'Cuaca & Alam', items: [
+          { t: '태양', r: 'Taeyang', m: 'Matahari', e: '☀️' },
+          { t: '달', r: 'Dal', m: 'Bulan', e: '🌙' },
+          { t: '별', r: 'Byeol', m: 'Bintang', e: '⭐' },
+          { t: '비', r: 'Bi', m: 'Hujan', e: '🌧️' },
+          { t: '바람', r: 'Baram', m: 'Angin', e: '💨' },
+          { t: '눈', r: 'Nun', m: 'Salju', e: '❄️' },
+          { t: '더운', r: 'Deoun', m: 'Panas', e: '🔥' },
+          { t: '추운', r: 'Chuun', m: 'Dingin', e: '🧊' },
+          { t: '나무', r: 'Namoo', m: 'Pohon', e: '🌳' },
+          { t: '꽃', r: 'Kkot', m: 'Bunga', e: '🌸' },
+          { t: '산', r: 'San', m: 'Gunung', e: '⛰️' },
+          { t: '바다', r: 'Bada', m: 'Laut', e: '🌊' },
+          { t: '강', r: 'Gang', m: 'Sungai', e: '🏞️' },
+          { t: '하늘', r: 'Haneul', m: 'Langit', e: '🌤️' },
+          { t: '구름', r: 'Gureum', m: 'Awan', e: '☁️' },
+      ], phrases: [] }
+    ]},
+  ]
+};

@@ -1,0 +1,178 @@
+export const zh = {
+  id: 'zh', name: 'Mandarin', native: '中文', code: 'CN', accent: '#B45309', accentSoft: '#FEF3C7',
+  units: [
+    { id: 'u1', title: 'Sapaan', emoji: '👋', lessons: [
+      { id: 'zh-u1-l1', title: 'Halo & Perkenalan', items: [
+        { t: '你好', r: 'Nǐ hǎo', m: 'Halo', e: '👋' },
+        { t: '您好', r: 'Nín hǎo', m: 'Halo (sopan)', e: '😊' },
+        { t: '早上好', r: 'Zǎoshang hǎo', m: 'Selamat pagi', e: '🌅' },
+        { t: '晚上好', r: 'Wǎnshang hǎo', m: 'Selamat malam', e: '🌙' },
+        { t: '谢谢', r: 'Xièxie', m: 'Terima kasih', e: '🙏' },
+        { t: '对不起', r: 'Duìbuqǐ', m: 'Maaf', e: '😔' },
+        { t: '初次见面', r: 'Chūcì jiànmiàn', m: 'Senang bertemu (pertama)', e: '🤝' },
+        { t: '我叫…', r: 'Wǒ jiào...', m: 'Nama saya...', e: '🏷️' },
+        { t: '你好吗?', r: 'Nǐ hǎo ma?', m: 'Apa kabar?', e: '💬' },
+        { t: '我很好', r: 'Wǒ hěn hǎo', m: 'Saya baik-baik', e: '🙂' },
+        { t: '很高兴认识你', r: 'Hěn gāoxìng rènshi nǐ', m: 'Senang bertemu denganmu', e: '😊' },
+        { t: '再见', r: 'Zàijiàn', m: 'Sampai jumpa', e: '👋' },
+      ], phrases: [{ t: '你好，我叫Ana。', m: 'Halo, nama saya Ana.' }] }
+    ]},
+    { id: 'u2', title: 'Angka', emoji: '🔢', lessons: [
+      { id: 'zh-u2-l1', title: 'Angka 1-10', items: [
+        { t: '一', r: 'Yī', m: 'Satu', e: '1️⃣' },
+        { t: '二', r: 'Èr', m: 'Dua', e: '2️⃣' },
+        { t: '三', r: 'Sān', m: 'Tiga', e: '3️⃣' },
+        { t: '四', r: 'Sì', m: 'Empat', e: '4️⃣' },
+        { t: '五', r: 'Wǔ', m: 'Lima', e: '5️⃣' },
+        { t: '六', r: 'Liù', m: 'Enam', e: '6️⃣' },
+        { t: '七', r: 'Qī', m: 'Tujuh', e: '7️⃣' },
+        { t: '八', r: 'Bā', m: 'Delapan', e: '8️⃣' },
+        { t: '九', r: 'Jiǔ', m: 'Sembilan', e: '9️⃣' },
+        { t: '十', r: 'Shí', m: 'Sepuluh', e: '🔟' },
+      ], phrases: [] }
+    ]},
+    { id: 'u3', title: 'Makanan', emoji: '🍽️', lessons: [
+      { id: 'zh-u3-l1', title: 'Makanan & Minuman', items: [
+        { t: '水', r: 'Shuǐ', m: 'Air', e: '💧' },
+        { t: '米饭', r: 'Mǐfàn', m: 'Nasi', e: '🍚' },
+        { t: '面包', r: 'Miànbāo', m: 'Roti', e: '🍞' },
+        { t: '鸡肉', r: 'Jīròu', m: 'Ayam', e: '🍗' },
+        { t: '鱼', r: 'Yú', m: 'Ikan', e: '🐟' },
+        { t: '苹果', r: 'Píngguǒ', m: 'Apel', e: '🍎' },
+        { t: '咖啡', r: 'Kāfēi', m: 'Kopi', e: '☕' },
+        { t: '茶', r: 'Chá', m: 'Teh', e: '🍵' },
+        { t: '我饿了', r: 'Wǒ è le', m: 'Saya lapar', e: '😋' },
+        { t: '我渴了', r: 'Wǒ kě le', m: 'Saya haus', e: '🥤' },
+        { t: '好吃', r: 'Hǎochī', m: 'Enak', e: '🤤' },
+        { t: '请结账', r: 'Qǐng jiézhàng', m: 'Tolong bonnya', e: '🧾' },
+      ], phrases: [{ t: '请给我一杯咖啡。', m: 'Kopi satu, tolong.' }] }
+    ]},
+    { id: 'u4', title: 'Perjalanan', emoji: '✈️', lessons: [
+      { id: 'zh-u4-l1', title: 'Di Bandara & Hotel', items: [
+        { t: '机场', r: 'Jīchǎng', m: 'Bandara', e: '✈️' },
+        { t: '票', r: 'Piào', m: 'Tiket', e: '🎫' },
+        { t: '护照', r: 'Hùzhào', m: 'Paspor', e: '📘' },
+        { t: '酒店', r: 'Jiǔdiàn', m: 'Hotel', e: '🏨' },
+        { t: '房间', r: 'Fángjiān', m: 'Kamar', e: '🛏️' },
+        { t: '在哪里?', r: 'Zài nǎlǐ?', m: 'Di mana?', e: '📍' },
+        { t: '左', r: 'Zuǒ', m: 'Kiri', e: '⬅️' },
+        { t: '右', r: 'Yòu', m: 'Kanan', e: '➡️' },
+        { t: '直走', r: 'Zhí zǒu', m: 'Lurus', e: '⬆️' },
+        { t: '多少钱?', r: 'Duōshao qián?', m: 'Berapa harganya?', e: '💰' },
+        { t: '出租车', r: 'Chūzūchē', m: 'Taksi', e: '🚕' },
+        { t: '救命', r: 'Jiùmìng', m: 'Tolong', e: '🆘' },
+      ], phrases: [] }
+    ]},
+    { id: 'u5', title: 'Percakapan', emoji: '💬', lessons: [
+      { id: 'zh-u5-l1', title: 'Sehari-hari', items: [
+        { t: '是', r: 'Shì', m: 'Ya', e: '✅' },
+        { t: '不是', r: 'Búshì', m: 'Tidak', e: '❌' },
+        { t: '对不起', r: 'Duìbuqǐ', m: 'Maaf', e: '😔' },
+        { t: '我不懂', r: 'Wǒ bù dǒng', m: 'Saya tidak mengerti', e: '😕' },
+        { t: '请慢一点', r: 'Qǐng màn yīdiǎn', m: 'Tolong bicara pelan-pelan', e: '🐌' },
+        { t: '现在几点?', r: 'Xiànzài jǐ diǎn?', m: 'Jam berapa sekarang?', e: '⏰' },
+        { t: '今天', r: 'Jīntiān', m: 'Hari ini', e: '📅' },
+        { t: '明天', r: 'Míngtiān', m: 'Besok', e: '📆' },
+        { t: '昨天', r: 'Zuótiān', m: 'Kemarin', e: '🗓️' },
+        { t: '再见', r: 'Zàijiàn', m: 'Selamat tinggal', e: '👋' },
+        { t: '加油', r: 'Jiāyóu', m: 'Semangat / Semoga berhasil', e: '🍀' },
+        { t: '没关系', r: 'Méi guānxi', m: 'Tidak apa-apa', e: '👍' },
+      ], phrases: [] }
+    ]},
+    { id: 'u6', title: 'Waktu & Hari', emoji: '🕐', lessons: [
+      { id: 'zh-u6-l1', title: 'Waktu & Hari', items: [
+          { t: '今天', r: 'Jīntiān', m: 'Hari ini', e: '📅' },
+          { t: '明天', r: 'Míngtiān', m: 'Besok', e: '📆' },
+          { t: '昨天', r: 'Zuótiān', m: 'Kemarin', e: '🗓️' },
+          { t: '现在', r: 'Xiànzài', m: 'Sekarang', e: '⏰' },
+          { t: '早上', r: 'Zǎoshang', m: 'Pagi', e: '🌅' },
+          { t: '中午', r: 'Zhōngwǔ', m: 'Siang', e: '☀️' },
+          { t: '下午', r: 'Xiàwǔ', m: 'Sore', e: '🌇' },
+          { t: '晚上', r: 'Wǎnshang', m: 'Malam', e: '🌙' },
+          { t: '星期一', r: 'Xīngqīyī', m: 'Senin', e: '1️⃣' },
+          { t: '星期二', r: 'Xīngqī\'èr', m: 'Selasa', e: '2️⃣' },
+          { t: '星期三', r: 'Xīngqīsān', m: 'Rabu', e: '3️⃣' },
+          { t: '星期四', r: 'Xīngqīsì', m: 'Kamis', e: '4️⃣' },
+          { t: '星期五', r: 'Xīngqīwǔ', m: 'Jumat', e: '5️⃣' },
+          { t: '星期六', r: 'Xīngqīliù', m: 'Sabtu', e: '6️⃣' },
+          { t: '星期日', r: 'Xīngqīrì', m: 'Minggu', e: '7️⃣' },
+      ], phrases: [] }
+    ]},
+    { id: 'u7', title: 'Keluarga & Hewan', emoji: '🐾', lessons: [
+      { id: 'zh-u7-l1', title: 'Keluarga & Hewan', items: [
+          { t: '父亲', r: 'Fùqīn', m: 'Ayah', e: '👨' },
+          { t: '母亲', r: 'Mǔqīn', m: 'Ibu', e: '👩' },
+          { t: '哥哥/姐姐', r: 'Gēge/Jiějie', m: 'Kakak', e: '👦' },
+          { t: '弟弟/妹妹', r: 'Dìdi/Mèimei', m: 'Adik', e: '👧' },
+          { t: '爷爷', r: 'Yéye', m: 'Kakek', e: '👴' },
+          { t: '奶奶', r: 'Nǎinai', m: 'Nenek', e: '👵' },
+          { t: '狗', r: 'Gǒu', m: 'Anjing', e: '🐶' },
+          { t: '猫', r: 'Māo', m: 'Kucing', e: '🐱' },
+          { t: '鸟', r: 'Niǎo', m: 'Burung', e: '🐦' },
+          { t: '鱼', r: 'Yú', m: 'Ikan', e: '🐟' },
+          { t: '大象', r: 'Dàxiàng', m: 'Gajah', e: '🐘' },
+          { t: '老虎', r: 'Lǎohǔ', m: 'Harimau', e: '🐯' },
+          { t: '兔子', r: 'Tùzi', m: 'Kelinci', e: '🐰' },
+          { t: '牛', r: 'Niú', m: 'Sapi', e: '🐮' },
+          { t: '马', r: 'Mǎ', m: 'Kuda', e: '🐴' },
+      ], phrases: [] }
+    ]},
+    { id: 'u8', title: 'Warna & Bentuk', emoji: '🎨', lessons: [
+      { id: 'zh-u8-l1', title: 'Warna & Bentuk', items: [
+          { t: '红色', r: 'Hóngsè', m: 'Merah', e: '🔴' },
+          { t: '蓝色', r: 'Lánsè', m: 'Biru', e: '🔵' },
+          { t: '绿色', r: 'Lǜsè', m: 'Hijau', e: '🟢' },
+          { t: '黄色', r: 'Huángsè', m: 'Kuning', e: '🟡' },
+          { t: '黑色', r: 'Hēisè', m: 'Hitam', e: '⚫' },
+          { t: '白色', r: 'Báisè', m: 'Putih', e: '⚪' },
+          { t: '灰色', r: 'Huīsè', m: 'Abu-abu', e: '🩶' },
+          { t: '橙色', r: 'Chéngsè', m: 'Oranye', e: '🟠' },
+          { t: '紫色', r: 'Zǐsè', m: 'Ungu', e: '🟣' },
+          { t: '粉色', r: 'Fěnsè', m: 'Pink', e: '💗' },
+          { t: '圆形', r: 'Yuánxíng', m: 'Lingkaran', e: '⭕' },
+          { t: '正方形', r: 'Zhèngfāngxíng', m: 'Kotak', e: '⬛' },
+          { t: '三角形', r: 'Sānjiǎoxíng', m: 'Segitiga', e: '🔺' },
+          { t: '星星', r: 'Xīngxīng', m: 'Bintang', e: '⭐' },
+          { t: '爱心', r: 'Àixīn', m: 'Hati', e: '❤️' },
+      ], phrases: [] }
+    ]},
+    { id: 'u9', title: 'Pekerjaan & Sekolah', emoji: '📚', lessons: [
+      { id: 'zh-u9-l1', title: 'Pekerjaan & Sekolah', items: [
+          { t: '老师', r: 'Lǎoshī', m: 'Guru', e: '👩‍🏫' },
+          { t: '医生', r: 'Yīshēng', m: 'Dokter', e: '👨‍⚕️' },
+          { t: '警察', r: 'Jǐngchá', m: 'Polisi', e: '👮' },
+          { t: '学生', r: 'Xuéshēng', m: 'Siswa', e: '🎒' },
+          { t: '书', r: 'Shū', m: 'Buku', e: '📖' },
+          { t: '笔', r: 'Bǐ', m: 'Pena', e: '🖊️' },
+          { t: '铅笔', r: 'Qiānbǐ', m: 'Pensil', e: '✏️' },
+          { t: '教室', r: 'Jiàoshì', m: 'Kelas', e: '🏫' },
+          { t: '学校', r: 'Xuéxiào', m: 'Sekolah', e: '🏫' },
+          { t: '学习', r: 'Xuéxí', m: 'Belajar', e: '📝' },
+          { t: '写', r: 'Xiě', m: 'Menulis', e: '✍️' },
+          { t: '读', r: 'Dú', m: 'Membaca', e: '👓' },
+          { t: '考试', r: 'Kǎoshì', m: 'Ujian', e: '📋' },
+          { t: '作业', r: 'Zuòyè', m: 'Tugas', e: '📄' },
+          { t: '图书馆', r: 'Túshūguǎn', m: 'Perpustakaan', e: '📚' },
+      ], phrases: [] }
+    ]},
+    { id: 'u10', title: 'Cuaca & Alam', emoji: '🌤️', lessons: [
+      { id: 'zh-u10-l1', title: 'Cuaca & Alam', items: [
+          { t: '太阳', r: 'Tàiyáng', m: 'Matahari', e: '☀️' },
+          { t: '月亮', r: 'Yuèliang', m: 'Bulan', e: '🌙' },
+          { t: '星星', r: 'Xīngxīng', m: 'Bintang', e: '⭐' },
+          { t: '雨', r: 'Yǔ', m: 'Hujan', e: '🌧️' },
+          { t: '风', r: 'Fēng', m: 'Angin', e: '💨' },
+          { t: '雪', r: 'Xuě', m: 'Salju', e: '❄️' },
+          { t: '热', r: 'Rè', m: 'Panas', e: '🔥' },
+          { t: '冷', r: 'Lěng', m: 'Dingin', e: '🧊' },
+          { t: '树', r: 'Shù', m: 'Pohon', e: '🌳' },
+          { t: '花', r: 'Huā', m: 'Bunga', e: '🌸' },
+          { t: '山', r: 'Shān', m: 'Gunung', e: '⛰️' },
+          { t: '海', r: 'Hǎi', m: 'Laut', e: '🌊' },
+          { t: '河', r: 'Hé', m: 'Sungai', e: '🏞️' },
+          { t: '天空', r: 'Tiānkōng', m: 'Langit', e: '🌤️' },
+          { t: '云', r: 'Yún', m: 'Awan', e: '☁️' },
+      ], phrases: [] }
+    ]},
+  ]
+};

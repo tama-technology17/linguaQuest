@@ -1,0 +1,178 @@
+export const fr = {
+  id: 'fr', name: 'Prancis', native: 'Français', code: 'FR', accent: '#1D4ED8', accentSoft: '#DBEAFE',
+  units: [
+    { id: 'u1', title: 'Sapaan', emoji: '👋', lessons: [
+      { id: 'fr-u1-l1', title: 'Halo & Perkenalan', items: [
+        { t: 'Bonjour', r: null, m: 'Halo (siang)', e: '👋' },
+        { t: 'Bonsoir', r: null, m: 'Selamat malam', e: '🌙' },
+        { t: 'Salut', r: null, m: 'Hai (santai)', e: '😊' },
+        { t: 'Au revoir', r: null, m: 'Selamat tinggal', e: '👋' },
+        { t: 'Merci', r: null, m: 'Terima kasih', e: '🙏' },
+        { t: 'Pardon', r: null, m: 'Maaf / Permisi', e: '🙋' },
+        { t: 'Enchanté', r: null, m: 'Senang bertemu', e: '🤝' },
+        { t: 'Je m\'appelle…', r: null, m: 'Nama saya...', e: '🏷️' },
+        { t: 'Comment ça va?', r: null, m: 'Apa kabar?', e: '💬' },
+        { t: 'Ça va bien', r: null, m: 'Saya baik-baik', e: '🙂' },
+        { t: 'À bientôt', r: null, m: 'Sampai jumpa', e: '👋' },
+        { t: 'De rien', r: null, m: 'Sama-sama', e: '😊' },
+      ], phrases: [{ t: 'Bonjour, je m\'appelle Ana.', m: 'Halo, nama saya Ana.' }] }
+    ]},
+    { id: 'u2', title: 'Angka', emoji: '🔢', lessons: [
+      { id: 'fr-u2-l1', title: 'Angka 1-10', items: [
+        { t: 'Un', r: null, m: 'Satu', e: '1️⃣' },
+        { t: 'Deux', r: null, m: 'Dua', e: '2️⃣' },
+        { t: 'Trois', r: null, m: 'Tiga', e: '3️⃣' },
+        { t: 'Quatre', r: null, m: 'Empat', e: '4️⃣' },
+        { t: 'Cinq', r: null, m: 'Lima', e: '5️⃣' },
+        { t: 'Six', r: null, m: 'Enam', e: '6️⃣' },
+        { t: 'Sept', r: null, m: 'Tujuh', e: '7️⃣' },
+        { t: 'Huit', r: null, m: 'Delapan', e: '8️⃣' },
+        { t: 'Neuf', r: null, m: 'Sembilan', e: '9️⃣' },
+        { t: 'Dix', r: null, m: 'Sepuluh', e: '🔟' },
+      ], phrases: [] }
+    ]},
+    { id: 'u3', title: 'Makanan', emoji: '🍽️', lessons: [
+      { id: 'fr-u3-l1', title: 'Makanan & Minuman', items: [
+        { t: 'Eau', r: null, m: 'Air', e: '💧' },
+        { t: 'Riz', r: null, m: 'Nasi', e: '🍚' },
+        { t: 'Pain', r: null, m: 'Roti', e: '🍞' },
+        { t: 'Poulet', r: null, m: 'Ayam', e: '🍗' },
+        { t: 'Poisson', r: null, m: 'Ikan', e: '🐟' },
+        { t: 'Pomme', r: null, m: 'Apel', e: '🍎' },
+        { t: 'Café', r: null, m: 'Kopi', e: '☕' },
+        { t: 'Thé', r: null, m: 'Teh', e: '🍵' },
+        { t: 'J\'ai faim', r: null, m: 'Saya lapar', e: '😋' },
+        { t: 'J\'ai soif', r: null, m: 'Saya haus', e: '🥤' },
+        { t: 'Délicieux', r: null, m: 'Enak', e: '🤤' },
+        { t: 'L\'addition, s\'il vous plaît', r: null, m: 'Tolong bonnya', e: '🧾' },
+      ], phrases: [{ t: 'Un café, s\'il vous plaît.', m: 'Kopi satu, tolong.' }] }
+    ]},
+    { id: 'u4', title: 'Perjalanan', emoji: '✈️', lessons: [
+      { id: 'fr-u4-l1', title: 'Di Bandara & Hotel', items: [
+        { t: 'Aéroport', r: null, m: 'Bandara', e: '✈️' },
+        { t: 'Billet', r: null, m: 'Tiket', e: '🎫' },
+        { t: 'Passeport', r: null, m: 'Paspor', e: '📘' },
+        { t: 'Hôtel', r: null, m: 'Hotel', e: '🏨' },
+        { t: 'Chambre', r: null, m: 'Kamar', e: '🛏️' },
+        { t: 'Où est...?', r: null, m: 'Di mana...?', e: '📍' },
+        { t: 'Gauche', r: null, m: 'Kiri', e: '⬅️' },
+        { t: 'Droite', r: null, m: 'Kanan', e: '➡️' },
+        { t: 'Tout droit', r: null, m: 'Lurus', e: '⬆️' },
+        { t: 'Combien ça coûte?', r: null, m: 'Berapa harganya?', e: '💰' },
+        { t: 'Taxi', r: null, m: 'Taksi', e: '🚕' },
+        { t: 'Au secours', r: null, m: 'Tolong', e: '🆘' },
+      ], phrases: [] }
+    ]},
+    { id: 'u5', title: 'Percakapan', emoji: '💬', lessons: [
+      { id: 'fr-u5-l1', title: 'Sehari-hari', items: [
+        { t: 'Oui', r: null, m: 'Ya', e: '✅' },
+        { t: 'Non', r: null, m: 'Tidak', e: '❌' },
+        { t: 'Désolé', r: null, m: 'Maaf', e: '😔' },
+        { t: 'Je ne comprends pas', r: null, m: 'Saya tidak mengerti', e: '😕' },
+        { t: 'Parlez plus lentement, s\'il vous plaît', r: null, m: 'Tolong bicara pelan-pelan', e: '🐌' },
+        { t: 'Quelle heure est-il?', r: null, m: 'Jam berapa sekarang?', e: '⏰' },
+        { t: 'Aujourd\'hui', r: null, m: 'Hari ini', e: '📅' },
+        { t: 'Demain', r: null, m: 'Besok', e: '📆' },
+        { t: 'Hier', r: null, m: 'Kemarin', e: '🗓️' },
+        { t: 'Au revoir', r: null, m: 'Selamat tinggal', e: '👋' },
+        { t: 'Bonne chance', r: null, m: 'Semoga berhasil', e: '🍀' },
+        { t: 'Ça va', r: null, m: 'Tidak apa-apa', e: '👍' },
+      ], phrases: [] }
+    ]},
+    { id: 'u6', title: 'Waktu & Hari', emoji: '🕐', lessons: [
+      { id: 'fr-u6-l1', title: 'Waktu & Hari', items: [
+          { t: 'Aujourd\'hui', r: null, m: 'Hari ini', e: '📅' },
+          { t: 'Demain', r: null, m: 'Besok', e: '📆' },
+          { t: 'Hier', r: null, m: 'Kemarin', e: '🗓️' },
+          { t: 'Maintenant', r: null, m: 'Sekarang', e: '⏰' },
+          { t: 'Matin', r: null, m: 'Pagi', e: '🌅' },
+          { t: 'Midi', r: null, m: 'Siang', e: '☀️' },
+          { t: 'Soir', r: null, m: 'Sore', e: '🌇' },
+          { t: 'Nuit', r: null, m: 'Malam', e: '🌙' },
+          { t: 'Lundi', r: null, m: 'Senin', e: '1️⃣' },
+          { t: 'Mardi', r: null, m: 'Selasa', e: '2️⃣' },
+          { t: 'Mercredi', r: null, m: 'Rabu', e: '3️⃣' },
+          { t: 'Jeudi', r: null, m: 'Kamis', e: '4️⃣' },
+          { t: 'Vendredi', r: null, m: 'Jumat', e: '5️⃣' },
+          { t: 'Samedi', r: null, m: 'Sabtu', e: '6️⃣' },
+          { t: 'Dimanche', r: null, m: 'Minggu', e: '7️⃣' },
+      ], phrases: [] }
+    ]},
+    { id: 'u7', title: 'Keluarga & Hewan', emoji: '🐾', lessons: [
+      { id: 'fr-u7-l1', title: 'Keluarga & Hewan', items: [
+          { t: 'Père', r: null, m: 'Ayah', e: '👨' },
+          { t: 'Mère', r: null, m: 'Ibu', e: '👩' },
+          { t: 'Frère/sœur aîné(e)', r: null, m: 'Kakak', e: '👦' },
+          { t: 'Frère/sœur cadet(te)', r: null, m: 'Adik', e: '👧' },
+          { t: 'Grand-père', r: null, m: 'Kakek', e: '👴' },
+          { t: 'Grand-mère', r: null, m: 'Nenek', e: '👵' },
+          { t: 'Chien', r: null, m: 'Anjing', e: '🐶' },
+          { t: 'Chat', r: null, m: 'Kucing', e: '🐱' },
+          { t: 'Oiseau', r: null, m: 'Burung', e: '🐦' },
+          { t: 'Poisson', r: null, m: 'Ikan', e: '🐟' },
+          { t: 'Éléphant', r: null, m: 'Gajah', e: '🐘' },
+          { t: 'Tigre', r: null, m: 'Harimau', e: '🐯' },
+          { t: 'Lapin', r: null, m: 'Kelinci', e: '🐰' },
+          { t: 'Vache', r: null, m: 'Sapi', e: '🐮' },
+          { t: 'Cheval', r: null, m: 'Kuda', e: '🐴' },
+      ], phrases: [] }
+    ]},
+    { id: 'u8', title: 'Warna & Bentuk', emoji: '🎨', lessons: [
+      { id: 'fr-u8-l1', title: 'Warna & Bentuk', items: [
+          { t: 'Rouge', r: null, m: 'Merah', e: '🔴' },
+          { t: 'Bleu', r: null, m: 'Biru', e: '🔵' },
+          { t: 'Vert', r: null, m: 'Hijau', e: '🟢' },
+          { t: 'Jaune', r: null, m: 'Kuning', e: '🟡' },
+          { t: 'Noir', r: null, m: 'Hitam', e: '⚫' },
+          { t: 'Blanc', r: null, m: 'Putih', e: '⚪' },
+          { t: 'Gris', r: null, m: 'Abu-abu', e: '🩶' },
+          { t: 'Orange', r: null, m: 'Oranye', e: '🟠' },
+          { t: 'Violet', r: null, m: 'Ungu', e: '🟣' },
+          { t: 'Rose', r: null, m: 'Pink', e: '💗' },
+          { t: 'Cercle', r: null, m: 'Lingkaran', e: '⭕' },
+          { t: 'Carré', r: null, m: 'Kotak', e: '⬛' },
+          { t: 'Triangle', r: null, m: 'Segitiga', e: '🔺' },
+          { t: 'Étoile', r: null, m: 'Bintang', e: '⭐' },
+          { t: 'Cœur', r: null, m: 'Hati', e: '❤️' },
+      ], phrases: [] }
+    ]},
+    { id: 'u9', title: 'Pekerjaan & Sekolah', emoji: '📚', lessons: [
+      { id: 'fr-u9-l1', title: 'Pekerjaan & Sekolah', items: [
+          { t: 'Professeur', r: null, m: 'Guru', e: '👩‍🏫' },
+          { t: 'Médecin', r: null, m: 'Dokter', e: '👨‍⚕️' },
+          { t: 'Policier', r: null, m: 'Polisi', e: '👮' },
+          { t: 'Étudiant', r: null, m: 'Siswa', e: '🎒' },
+          { t: 'Livre', r: null, m: 'Buku', e: '📖' },
+          { t: 'Stylo', r: null, m: 'Pena', e: '🖊️' },
+          { t: 'Crayon', r: null, m: 'Pensil', e: '✏️' },
+          { t: 'Salle de classe', r: null, m: 'Kelas', e: '🏫' },
+          { t: 'École', r: null, m: 'Sekolah', e: '🏫' },
+          { t: 'Étudier', r: null, m: 'Belajar', e: '📝' },
+          { t: 'Écrire', r: null, m: 'Menulis', e: '✍️' },
+          { t: 'Lire', r: null, m: 'Membaca', e: '👓' },
+          { t: 'Examen', r: null, m: 'Ujian', e: '📋' },
+          { t: 'Devoir', r: null, m: 'Tugas', e: '📄' },
+          { t: 'Bibliothèque', r: null, m: 'Perpustakaan', e: '📚' },
+      ], phrases: [] }
+    ]},
+    { id: 'u10', title: 'Cuaca & Alam', emoji: '🌤️', lessons: [
+      { id: 'fr-u10-l1', title: 'Cuaca & Alam', items: [
+          { t: 'Soleil', r: null, m: 'Matahari', e: '☀️' },
+          { t: 'Lune', r: null, m: 'Bulan', e: '🌙' },
+          { t: 'Étoile', r: null, m: 'Bintang', e: '⭐' },
+          { t: 'Pluie', r: null, m: 'Hujan', e: '🌧️' },
+          { t: 'Vent', r: null, m: 'Angin', e: '💨' },
+          { t: 'Neige', r: null, m: 'Salju', e: '❄️' },
+          { t: 'Chaud', r: null, m: 'Panas', e: '🔥' },
+          { t: 'Froid', r: null, m: 'Dingin', e: '🧊' },
+          { t: 'Arbre', r: null, m: 'Pohon', e: '🌳' },
+          { t: 'Fleur', r: null, m: 'Bunga', e: '🌸' },
+          { t: 'Montagne', r: null, m: 'Gunung', e: '⛰️' },
+          { t: 'Mer', r: null, m: 'Laut', e: '🌊' },
+          { t: 'Rivière', r: null, m: 'Sungai', e: '🏞️' },
+          { t: 'Ciel', r: null, m: 'Langit', e: '🌤️' },
+          { t: 'Nuage', r: null, m: 'Awan', e: '☁️' },
+      ], phrases: [] }
+    ]},
+  ]
+};

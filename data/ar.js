@@ -1,0 +1,178 @@
+export const ar = {
+  id: 'ar', name: 'Arab', native: 'العربية', code: 'AR', accent: '#047857', accentSoft: '#D1FAE5',
+  units: [
+    { id: 'u1', title: 'Sapaan', emoji: '👋', lessons: [
+      { id: 'ar-u1-l1', title: 'Halo & Perkenalan', items: [
+        { t: 'مرحبا', r: 'Marhaban', m: 'Halo', e: '👋' },
+        { t: 'السلام عليكم', r: 'As-salamu alaykum', m: 'Semoga keselamatan atasmu (salam)', e: '😊' },
+        { t: 'صباح الخير', r: 'Sabah al-khayr', m: 'Selamat pagi', e: '🌅' },
+        { t: 'مساء الخير', r: 'Masa al-khayr', m: 'Selamat malam', e: '🌙' },
+        { t: 'شكرا', r: 'Shukran', m: 'Terima kasih', e: '🙏' },
+        { t: 'آسف', r: 'Asif', m: 'Maaf', e: '😔' },
+        { t: 'تشرفت بمقابلتك', r: 'Tasharaftu bimuqabalatik', m: 'Senang bertemu denganmu', e: '🤝' },
+        { t: 'اسمي…', r: 'Ismi...', m: 'Nama saya...', e: '🏷️' },
+        { t: 'كيف حالك؟', r: 'Kayfa haluk?', m: 'Apa kabar?', e: '💬' },
+        { t: 'أنا بخير', r: 'Ana bikhayr', m: 'Saya baik-baik', e: '🙂' },
+        { t: 'مع السلامة', r: 'Ma\'a as-salama', m: 'Sampai jumpa', e: '👋' },
+        { t: 'إلى اللقاء', r: 'Ila al-liqa', m: 'Sampai bertemu lagi', e: '😊' },
+      ], phrases: [{ t: 'مرحبا، اسمي Ana.', m: 'Halo, nama saya Ana.' }] }
+    ]},
+    { id: 'u2', title: 'Angka', emoji: '🔢', lessons: [
+      { id: 'ar-u2-l1', title: 'Angka 1-10', items: [
+        { t: 'واحد', r: 'Wahid', m: 'Satu', e: '1️⃣' },
+        { t: 'اثنان', r: 'Ithnan', m: 'Dua', e: '2️⃣' },
+        { t: 'ثلاثة', r: 'Thalatha', m: 'Tiga', e: '3️⃣' },
+        { t: 'أربعة', r: 'Arba\'a', m: 'Empat', e: '4️⃣' },
+        { t: 'خمسة', r: 'Khamsa', m: 'Lima', e: '5️⃣' },
+        { t: 'ستة', r: 'Sitta', m: 'Enam', e: '6️⃣' },
+        { t: 'سبعة', r: 'Sab\'a', m: 'Tujuh', e: '7️⃣' },
+        { t: 'ثمانية', r: 'Thamaniya', m: 'Delapan', e: '8️⃣' },
+        { t: 'تسعة', r: 'Tis\'a', m: 'Sembilan', e: '9️⃣' },
+        { t: 'عشرة', r: 'Ashara', m: 'Sepuluh', e: '🔟' },
+      ], phrases: [] }
+    ]},
+    { id: 'u3', title: 'Makanan', emoji: '🍽️', lessons: [
+      { id: 'ar-u3-l1', title: 'Makanan & Minuman', items: [
+        { t: 'ماء', r: 'Ma\'', m: 'Air', e: '💧' },
+        { t: 'أرز', r: 'Arz', m: 'Nasi', e: '🍚' },
+        { t: 'خبز', r: 'Khobz', m: 'Roti', e: '🍞' },
+        { t: 'دجاج', r: 'Dajaj', m: 'Ayam', e: '🍗' },
+        { t: 'سمك', r: 'Samak', m: 'Ikan', e: '🐟' },
+        { t: 'تفاح', r: 'Tuffah', m: 'Apel', e: '🍎' },
+        { t: 'قهوة', r: 'Qahwa', m: 'Kopi', e: '☕' },
+        { t: 'شاي', r: 'Shay', m: 'Teh', e: '🍵' },
+        { t: 'أنا جائع', r: 'Ana ja\'i', m: 'Saya lapar', e: '😋' },
+        { t: 'أنا عطشان', r: 'Ana atshan', m: 'Saya haus', e: '🥤' },
+        { t: 'لذيذ', r: 'Ladhīdh', m: 'Enak', e: '🤤' },
+        { t: 'الحساب من فضلك', r: 'Al-hisab min fadlik', m: 'Tolong bonnya', e: '🧾' },
+      ], phrases: [{ t: 'أريد قهوة، من فضلك.', m: 'Saya mau kopi, tolong.' }] }
+    ]},
+    { id: 'u4', title: 'Perjalanan', emoji: '✈️', lessons: [
+      { id: 'ar-u4-l1', title: 'Di Bandara & Hotel', items: [
+        { t: 'مطار', r: 'Matar', m: 'Bandara', e: '✈️' },
+        { t: 'تذكرة', r: 'Tadhkira', m: 'Tiket', e: '🎫' },
+        { t: 'جواز سفر', r: 'Jawaz safar', m: 'Paspor', e: '📘' },
+        { t: 'فندق', r: 'Funduq', m: 'Hotel', e: '🏨' },
+        { t: 'غرفة', r: 'Ghurfa', m: 'Kamar', e: '🛏️' },
+        { t: 'أين...؟', r: 'Ayn...?', m: 'Di mana...?', e: '📍' },
+        { t: 'يسار', r: 'Yasar', m: 'Kiri', e: '⬅️' },
+        { t: 'يمين', r: 'Yamin', m: 'Kanan', e: '➡️' },
+        { t: 'مستقيم', r: 'Mustaqim', m: 'Lurus', e: '⬆️' },
+        { t: 'كم السعر؟', r: 'Kam as-si\'r?', m: 'Berapa harganya?', e: '💰' },
+        { t: 'سيارة أجرة', r: 'Sayyarat ujra', m: 'Taksi', e: '🚕' },
+        { t: 'ساعدني', r: 'Sa\'idni', m: 'Tolong', e: '🆘' },
+      ], phrases: [] }
+    ]},
+    { id: 'u5', title: 'Percakapan', emoji: '💬', lessons: [
+      { id: 'ar-u5-l1', title: 'Sehari-hari', items: [
+        { t: 'نعم', r: 'Na\'am', m: 'Ya', e: '✅' },
+        { t: 'لا', r: 'La', m: 'Tidak', e: '❌' },
+        { t: 'آسف', r: 'Asif', m: 'Maaf', e: '😔' },
+        { t: 'لا أفهم', r: 'La afham', m: 'Saya tidak mengerti', e: '😕' },
+        { t: 'تحدث ببطء من فضلك', r: 'Tahaddath bibut\' min fadlik', m: 'Tolong bicara pelan-pelan', e: '🐌' },
+        { t: 'كم الساعة؟', r: 'Kam as-sa\'a?', m: 'Jam berapa sekarang?', e: '⏰' },
+        { t: 'اليوم', r: 'Al-yawm', m: 'Hari ini', e: '📅' },
+        { t: 'غدا', r: 'Ghadan', m: 'Besok', e: '📆' },
+        { t: 'أمس', r: 'Ams', m: 'Kemarin', e: '🗓️' },
+        { t: 'إلى اللقاء', r: 'Ila al-liqa', m: 'Selamat tinggal', e: '👋' },
+        { t: 'بالتوفيق', r: 'Bil-tawfiq', m: 'Semoga berhasil', e: '🍀' },
+        { t: 'لا بأس', r: 'La ba\'s', m: 'Tidak apa-apa', e: '👍' },
+      ], phrases: [] }
+    ]},
+    { id: 'u6', title: 'Waktu & Hari', emoji: '🕐', lessons: [
+      { id: 'ar-u6-l1', title: 'Waktu & Hari', items: [
+          { t: 'اليوم', r: 'Al-yawm', m: 'Hari ini', e: '📅' },
+          { t: 'غدا', r: 'Ghadan', m: 'Besok', e: '📆' },
+          { t: 'أمس', r: 'Ams', m: 'Kemarin', e: '🗓️' },
+          { t: 'الآن', r: 'Al-ān', m: 'Sekarang', e: '⏰' },
+          { t: 'صباح', r: 'Sabāh', m: 'Pagi', e: '🌅' },
+          { t: 'ظهر', r: 'Zuhr', m: 'Siang', e: '☀️' },
+          { t: 'مساء', r: 'Masā\'', m: 'Sore', e: '🌇' },
+          { t: 'ليل', r: 'Layl', m: 'Malam', e: '🌙' },
+          { t: 'الاثنين', r: 'Al-ithnayn', m: 'Senin', e: '1️⃣' },
+          { t: 'الثلاثاء', r: 'Al-thulāthā\'', m: 'Selasa', e: '2️⃣' },
+          { t: 'الأربعاء', r: 'Al-arbi\'ā\'', m: 'Rabu', e: '3️⃣' },
+          { t: 'الخميس', r: 'Al-khamīs', m: 'Kamis', e: '4️⃣' },
+          { t: 'الجمعة', r: 'Al-jumu\'ah', m: 'Jumat', e: '5️⃣' },
+          { t: 'السبت', r: 'Al-sabt', m: 'Sabtu', e: '6️⃣' },
+          { t: 'الأحد', r: 'Al-aḥad', m: 'Minggu', e: '7️⃣' },
+      ], phrases: [] }
+    ]},
+    { id: 'u7', title: 'Keluarga & Hewan', emoji: '🐾', lessons: [
+      { id: 'ar-u7-l1', title: 'Keluarga & Hewan', items: [
+          { t: 'أب', r: 'Ab', m: 'Ayah', e: '👨' },
+          { t: 'أم', r: 'Umm', m: 'Ibu', e: '👩' },
+          { t: 'أخ/أخت أكبر', r: 'Akh/Akht akbar', m: 'Kakak', e: '👦' },
+          { t: 'أخ/أخت أصغر', r: 'Akh/Akht asghar', m: 'Adik', e: '👧' },
+          { t: 'جد', r: 'Jadd', m: 'Kakek', e: '👴' },
+          { t: 'جدة', r: 'Jaddah', m: 'Nenek', e: '👵' },
+          { t: 'كلب', r: 'Kalb', m: 'Anjing', e: '🐶' },
+          { t: 'قطة', r: 'Qitta', m: 'Kucing', e: '🐱' },
+          { t: 'طائر', r: 'Tā\'ir', m: 'Burung', e: '🐦' },
+          { t: 'سمكة', r: 'Samakah', m: 'Ikan', e: '🐟' },
+          { t: 'فيل', r: 'Fīl', m: 'Gajah', e: '🐘' },
+          { t: 'نمر', r: 'Nimr', m: 'Harimau', e: '🐯' },
+          { t: 'أرنب', r: 'Arnab', m: 'Kelinci', e: '🐰' },
+          { t: 'بقرة', r: 'Baqarah', m: 'Sapi', e: '🐮' },
+          { t: 'حصان', r: 'Hisān', m: 'Kuda', e: '🐴' },
+      ], phrases: [] }
+    ]},
+    { id: 'u8', title: 'Warna & Bentuk', emoji: '🎨', lessons: [
+      { id: 'ar-u8-l1', title: 'Warna & Bentuk', items: [
+          { t: 'أحمر', r: 'Ahmar', m: 'Merah', e: '🔴' },
+          { t: 'أزرق', r: 'Azraq', m: 'Biru', e: '🔵' },
+          { t: 'أخضر', r: 'Akhdar', m: 'Hijau', e: '🟢' },
+          { t: 'أصفر', r: 'Asfar', m: 'Kuning', e: '🟡' },
+          { t: 'أسود', r: 'Aswad', m: 'Hitam', e: '⚫' },
+          { t: 'أبيض', r: 'Abyad', m: 'Putih', e: '⚪' },
+          { t: 'رمادي', r: 'Ramadi', m: 'Abu-abu', e: '🩶' },
+          { t: 'برتقالي', r: 'Burtuqali', m: 'Oranye', e: '🟠' },
+          { t: 'بنفسجي', r: 'Banafsaji', m: 'Ungu', e: '🟣' },
+          { t: 'وردي', r: 'Wardi', m: 'Pink', e: '💗' },
+          { t: 'دائرة', r: 'Dā\'irah', m: 'Lingkaran', e: '⭕' },
+          { t: 'مربع', r: 'Murabba\'', m: 'Kotak', e: '⬛' },
+          { t: 'مثلث', r: 'Muthallath', m: 'Segitiga', e: '🔺' },
+          { t: 'نجمة', r: 'Najmah', m: 'Bintang', e: '⭐' },
+          { t: 'قلب', r: 'Qalb', m: 'Hati', e: '❤️' },
+      ], phrases: [] }
+    ]},
+    { id: 'u9', title: 'Pekerjaan & Sekolah', emoji: '📚', lessons: [
+      { id: 'ar-u9-l1', title: 'Pekerjaan & Sekolah', items: [
+          { t: 'معلم', r: 'Mu\'allim', m: 'Guru', e: '👩‍🏫' },
+          { t: 'طبيب', r: 'Tabīb', m: 'Dokter', e: '👨‍⚕️' },
+          { t: 'شرطي', r: 'Sharṭī', m: 'Polisi', e: '👮' },
+          { t: 'طالب', r: 'Tālib', m: 'Siswa', e: '🎒' },
+          { t: 'كتاب', r: 'Kitāb', m: 'Buku', e: '📖' },
+          { t: 'قلم', r: 'Qalam', m: 'Pena', e: '🖊️' },
+          { t: 'قلم رصاص', r: 'Qalam raṣāṣ', m: 'Pensil', e: '✏️' },
+          { t: 'فصل', r: 'Faṣl', m: 'Kelas', e: '🏫' },
+          { t: 'مدرسة', r: 'Madrasah', m: 'Sekolah', e: '🏫' },
+          { t: 'دراسة', r: 'Dirāsah', m: 'Belajar', e: '📝' },
+          { t: 'كتابة', r: 'Kitābah', m: 'Menulis', e: '✍️' },
+          { t: 'قراءة', r: 'Qirā\'ah', m: 'Membaca', e: '👓' },
+          { t: 'امتحان', r: 'Imtiḥān', m: 'Ujian', e: '📋' },
+          { t: 'واجب', r: 'Wājib', m: 'Tugas', e: '📄' },
+          { t: 'مكتبة', r: 'Maktabah', m: 'Perpustakaan', e: '📚' },
+      ], phrases: [] }
+    ]},
+    { id: 'u10', title: 'Cuaca & Alam', emoji: '🌤️', lessons: [
+      { id: 'ar-u10-l1', title: 'Cuaca & Alam', items: [
+          { t: 'شمس', r: 'Shams', m: 'Matahari', e: '☀️' },
+          { t: 'قمر', r: 'Qamar', m: 'Bulan', e: '🌙' },
+          { t: 'نجمة', r: 'Najmah', m: 'Bintang', e: '⭐' },
+          { t: 'مطر', r: 'Maṭar', m: 'Hujan', e: '🌧️' },
+          { t: 'رياح', r: 'Riyāḥ', m: 'Angin', e: '💨' },
+          { t: 'ثلج', r: 'Thalj', m: 'Salju', e: '❄️' },
+          { t: 'حار', r: 'Ḥār', m: 'Panas', e: '🔥' },
+          { t: 'بارد', r: 'Bārid', m: 'Dingin', e: '🧊' },
+          { t: 'شجرة', r: 'Shajarah', m: 'Pohon', e: '🌳' },
+          { t: 'زهرة', r: 'Zahrah', m: 'Bunga', e: '🌸' },
+          { t: 'جبل', r: 'Jabal', m: 'Gunung', e: '⛰️' },
+          { t: 'بحر', r: 'Baḥr', m: 'Laut', e: '🌊' },
+          { t: 'نهر', r: 'Nahr', m: 'Sungai', e: '🏞️' },
+          { t: 'سماء', r: 'Samā\'', m: 'Langit', e: '🌤️' },
+          { t: 'سحابة', r: 'Saḥābah', m: 'Awan', e: '☁️' },
+      ], phrases: [] }
+    ]},
+  ]
+};
